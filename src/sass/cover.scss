@@ -1,0 +1,12 @@
+.text-active-inverse-secondary.active {
+  transition: color .2s ease,background-color .2s ease;
+  color: #3f4254!important;
+}
+
+.bg-active-secondary.active {
+  --bg-color: 228,230,239;
+  background-color: #e4e6ef!important;
+}
+.text-active-inverse-secondary {
+  transition: color .2s ease,background-color .2s ease;
+}
