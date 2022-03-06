@@ -43,6 +43,7 @@ function App() {
             <main>
 
                 <form>
+                  <div className={"col-lg-4 mx-auto p-3 py-md-5 p-3"}>
                     <div className="form-group">
                         <label htmlFor="date">Date Range</label>
 
@@ -64,8 +65,10 @@ function App() {
                                                  memo: ' 1 Nisan Şaka Bayramı'
                                              }
                                          ]}
+                                         columns={1}
                                          locale={'tr'}/>
                     </div>
+                  </div>
                 </form>
 
             </main>

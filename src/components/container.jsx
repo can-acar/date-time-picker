@@ -52,6 +52,7 @@ const Container = forwardRef<propsType>((props: propsType, ref) => {
         "border-0": true,
         "w-300px": columns === 1,
         "min-w-600px": columns > 1,
+        "max-w-600px": columns > 1,
     }
 
     const onHandleFirstDayChange = useCallback((date) => {

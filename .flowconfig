@@ -1,11 +1,46 @@
 [ignore]
+- node_modules
+- .flowconfig
+- .git
+- .gitignore
+- .idea
+- .vscode
+- .vscodeignore
+- .nyc_output
 
 [include]
+- **/*.js
+- **/*.jsx
 
 [libs]
+- react
+- react-dom
+- react-router
+- react-router-dom
+- redux
+- redux-thunk
+- react-redux
+- prop-types
+- react-loadable
+- react-router-redux
+- history
+- lodash
+- moment
+- classnames
+- react-bootstrap
+- react-bootstrap-typeahead
+- react-bootstrap-table
+- react-bootstrap-table-next
+- redux-saga
 
 [lints]
+- flowtype
+- prettier
+
 
 [options]
+- flowtype
+
 
 [strict]
+- flowtype

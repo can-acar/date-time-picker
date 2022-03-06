@@ -30,14 +30,13 @@ const HeadTitle = forwardRef(({
 
     return (<div ref={ref}
                  className="d-flex flex-fill align-content-stretch justify-content-between mb-5">
-        <div className="d-flex flex-stack">
-            <div className="d-flex flex-column">
-                                        <span
-                                            className="fs-5 text-dark text-hover-primary fw-bolder">
-                                            {date.format('MMMM YYYY')}
-                                        </span>
-            </div>
-        </div>
+              <div className="d-flex flex-stack">
+                  <div className="d-flex flex-column">
+                    <span className="fs-5 text-dark text-hover-primary fw-bolder">
+                      {date.format('MMMM YYYY')}
+                    </span>
+                  </div>
+              </div>
         <div className="d-flex flex-stack">
             <div className="d-flex justify-content-end">
                 <div
@@ -145,7 +144,6 @@ const DaysLabel = forwardRef(({labels = []}, ref) => {
     const label = ((day, i) => <DayItem key={i}
                                         className="ps-1 me-0 text-center">
         <LabelSpan
-
             className={'fw-bolder text-dark text-justify'}
             data-label={day}>{day}
         </LabelSpan>

@@ -7,6 +7,7 @@ import {Dropdown} from "react-bootstrap";
 import DateInput from "./date-input";
 import DropdownMenu from "react-bootstrap/DropdownMenu";
 import Container from "./container";
+import "bootstrap-icons/font/bootstrap-icons.css";
 
 type propsType = {
     className?: string,
